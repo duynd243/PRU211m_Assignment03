@@ -30,7 +30,6 @@ namespace ProgrammingAssignment4
                 input = input.ToUpper();
                 var sortedCharSet = input
                     .Where(c => c is >= 'A' and <= 'Z')
-                    .ToArray()
                     .Distinct()
                     .OrderBy(c => c);
                 var result = "";
