@@ -29,12 +29,12 @@ namespace ProgrammingAssignment2
         /// </summary>
         public void PrintOneToTen()
         {
-            var result = "";
             for (var i = 1; i <= 10; i++)
             {
-                result += i + " ";
+                Console.Write(i + " ");
             }
-            Console.WriteLine(result.Trim());
+
+            Console.WriteLine();
         }
 
         /// <summary>
@@ -49,12 +49,13 @@ namespace ProgrammingAssignment2
                 Console.WriteLine("m must be less than or equal to n.");
                 return;
             }
-            var result = "";
+
             for (var i = m; i <= n; i++)
             {
-                result += i + " ";
+                Console.Write(i + " ");
             }
-            Console.WriteLine(result.Trim());
+
+            Console.WriteLine();
         }
 
         /// <summary>

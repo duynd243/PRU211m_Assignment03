@@ -32,14 +32,12 @@ namespace ProgrammingAssignment4
                     .Where(c => c is >= 'A' and <= 'Z')
                     .Distinct()
                     .OrderBy(c => c);
-                var result = "";
                 foreach (var c in sortedCharSet)
                 {
-                    result += $"{c}{input.Count(x => x == c)} ";
+                    Console.Write($"{c}{input.Count(x => x == c)} ");
                 }
 
-                Console.WriteLine(result.Trim());
-
+                Console.WriteLine();
 
                 // Don't add or modify any code below
                 // this comment

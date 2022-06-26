@@ -94,7 +94,7 @@ namespace ProgrammingAssignment1
         /// <param name="howToCook">how the egg should be cooked</param>
         public void Cook(HowCooked howToCook)
         {
-            if(!IsCooked)
+            if (!IsCooked)
             {
                 this.howCooked = howToCook;
             }
@@ -108,7 +108,7 @@ namespace ProgrammingAssignment1
         public void TakeBite(int size)
         {
             if (!IsCooked) return;
-            var newSize = AmountLeft- size;
+            var newSize = AmountLeft - size;
             this.amountLeft = (newSize >= 0) ? newSize : 0;
         }
 
@@ -119,9 +119,8 @@ namespace ProgrammingAssignment1
         /// <param name="color">color to dye the egg</param>
         public void Dye(EggColor color)
         {
-            
             // My Comment: Only white eggs can be dyed, and they can only be dyed blue. 
-            if(this.color == EggColor.White && color == EggColor.Blue)
+            if (this.color == EggColor.White && color == EggColor.Blue)
             {
                 this.color = color;
             }

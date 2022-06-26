@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPTU\\TERM 7\\C# Advanced\\Projects\\PRU211m_Assignment03_SE1503_SE150396\\Assignment34\\Assignment34.csproj": {}
+    "D:\\FPTU\\TERM 7\\Unity\\Assignments\\PRU211m_Assignment03_SE1503_SE150396\\Assignment34\\Assignment34.csproj": {}
   },
   "projects": {
-    "D:\\FPTU\\TERM 7\\C# Advanced\\Projects\\PRU211m_Assignment03_SE1503_SE150396\\Assignment34\\Assignment34.csproj": {
+    "D:\\FPTU\\TERM 7\\Unity\\Assignments\\PRU211m_Assignment03_SE1503_SE150396\\Assignment34\\Assignment34.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPTU\\TERM 7\\C# Advanced\\Projects\\PRU211m_Assignment03_SE1503_SE150396\\Assignment34\\Assignment34.csproj",
+        "projectUniqueName": "D:\\FPTU\\TERM 7\\Unity\\Assignments\\PRU211m_Assignment03_SE1503_SE150396\\Assignment34\\Assignment34.csproj",
         "projectName": "Assignment34",
-        "projectPath": "D:\\FPTU\\TERM 7\\C# Advanced\\Projects\\PRU211m_Assignment03_SE1503_SE150396\\Assignment34\\Assignment34.csproj",
+        "projectPath": "D:\\FPTU\\TERM 7\\Unity\\Assignments\\PRU211m_Assignment03_SE1503_SE150396\\Assignment34\\Assignment34.csproj",
         "packagesPath": "C:\\Users\\Duy\\.nuget\\packages\\",
-        "outputPath": "D:\\FPTU\\TERM 7\\C# Advanced\\Projects\\PRU211m_Assignment03_SE1503_SE150396\\Assignment34\\obj\\",
+        "outputPath": "D:\\FPTU\\TERM 7\\Unity\\Assignments\\PRU211m_Assignment03_SE1503_SE150396\\Assignment34\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Duy\\AppData\\Roaming\\NuGet\\NuGet.Config",
